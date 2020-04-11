@@ -5,4 +5,4 @@ RAFO works on Python 3+.
 
 Install dependencies:
 
-python3 -m pip install -r requirements.txt
+<pre>python3 -m pip install -r requirements.txt</pre>
