@@ -33,7 +33,7 @@ def myCommand():
     r = sr.Recognizer()
 
     with sr.Microphone() as source:
-        print('RAFO is Ready...')
+        print('EVE is Ready...')
         r.pause_threshold = 1
         #wait for a second to let the recognizer adjust the  
         #energy threshold based on the surrounding noise level 
@@ -148,10 +148,10 @@ def rafo(command):
 
 
     elif 'hello' in command:
-        talk('Hello! I am RAFO. How can I help you?')
+        talk('Hello! I am EVE. How can I help you?')
         time.sleep(3)
     elif 'who are you' in command:
-        talk('I am rafo your assistant')
+        talk('I am EVE your assistant')
         time.sleep(3)
     else:
         error = random.choice(errors)
@@ -159,7 +159,7 @@ def rafo(command):
         time.sleep(3)
 
 
-talk('RAFO activated!')
+talk('EVE activated!')
 
 #loop to continue executing multiple commands
 while True:
